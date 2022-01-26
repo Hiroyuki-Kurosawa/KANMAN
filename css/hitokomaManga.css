@@ -1,0 +1,133 @@
+body{
+  margin: 0 ;
+  padding: 0;
+  width: 1000px;
+}
+header{
+  display:flex;
+}
+a:visited.back{
+  color : #ccc;
+}
+.menu{
+  display: flex;
+}
+.menu > li{
+
+  padding-left:10px;
+  list-style: none;
+}
+.hitokomaFoundation.active{
+  display: block;
+}
+.hitokomaFoundation {
+  width: 800px;
+  height: 400px;
+  margin: 0 auto;
+  display: none;
+}
+.plainFoundationWaku{
+  width:457px;
+  height: 238px;
+  padding: auto;
+  overflow: hidden;
+  position: relative;
+  border-top: 2px solid ;
+  border-bottom: 2px solid ;
+  border-left: 2px solid ;
+  border-right: 2px solid ;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+.patternOneFoundationWaku{
+  width:250px;
+  height: 128px;
+  padding: auto;
+  overflow: hidden;
+  position: relative;
+  border-top: 2px solid ;
+  border-bottom: 2px solid ;
+  border-left: 2px solid ;
+  border-right: 2px solid ;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+.patternTwoFoundationWaku{
+  width:749px;
+  height: 383px;
+  padding: auto;
+  overflow: hidden;
+  position: relative;
+  border-top: 2px solid ;
+  border-bottom: 2px solid ;
+  border-left: 2px solid ;
+  border-right: 2px solid ;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+img.patternOneImg{
+  width: 120px;
+  height: 200px;
+}
+#plainfk-size{
+  width: 300px;
+  height: auto;
+}
+.patternOnefk-size{
+  width: 300px;
+  height: auto;
+}
+.patternTwofk-size{
+  width: 300px;
+  height: auto;
+}
+#plain-bubbleImg{
+  width: 300px;
+  height: 100%;
+  object-fit: contain;
+}
+#patternOne-bubbleImg{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+#patternTwo-bubbleImg{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.child{
+  -ms-writing-mode: tb-rl;
+  writing-mode: vertical-rl;
+}
+.patternOnemenuField{
+  display: flex;
+}
+.patternOnemenuField > div + div{
+  margin-left: 37px;
+}
+.patternOnemenuField > div{
+  margin: 0;
+  padding: 0;
+}
+.patternOnetextMenu{
+  padding-top: 15px;
+}
+.patternOnetextArea{
+  vertical-align: top;
+}
+p{
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  text-orientation: upright;
+  font-size: 100%;
+}
+.hitokomaFoundationChara-drag {
+  cursor: move;
+  position: absolute;
+  z-index: 1000;
+}
+
+.drag {
+  z-index: 1001;
+}

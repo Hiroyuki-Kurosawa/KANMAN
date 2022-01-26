@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+
+  <title>かんまん＜かんたん漫画作成＞</title>
+  <link rel="stylesheet" href="../css/hitokomaManga.css">
+</head>
+<body>
+  <header>
+    <h1><a class="back" href="../index.html">KantanManga</a></h1>
+    
+  </header>
+  <main>
+    <nav>
+      <ul class="menu">
+        <li><a href="#" data-id="plain">プレーン</a></li>
+        <li><a href="#" data-id="patternOne">１キャラクターで作る</a></li>
+        <li><a href="#" data-id="patternTwo">２キャラクターで作る</a></li>
+      </ul>
+    </nav>
+
+
+
+    <div class="hitokomaFoundation" id="plain">
+      <div class="plainFoundationWaku">
+        <div class="hitokomaFoundationChara-drag" id="" style=" top:50px; left:20px;">
+          <img src="../img/men.png" id="plainCharcterImage" alt="">
+        </div>
+        <div class="hitokomaFoundationChara-drag parent" id="" style=" top:0px; left:360px;">
+          <div id="plainfk-size">
+            <img src="../img/fk.png" id="plain-bubbleImg" alt="">
+          </div>
+        </div>
+        <div class="hitokomaFoundationChara-drag" id="" style=" top:90px; left:300px;">
+          <div class="child">
+            <p id="plainFontResisable"><span class="plainText-primary"></span></p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="patternOnemenuField">
+        <div>
+          <div class="menu1">
+            <p>人物のサイズ</p>
+            <button id="plainCharaSmalle">&laquo;</button>
+            <button id="plainCharaDefault">戻</button>
+            <button id="plainCharaLarge">&raquo;</button>
+          </div>
+        </div>
+        <div>
+          <div class="menu2">
+            <p>吹き出しサイズ</p>
+            <button id="plainbubblesmalle">&laquo;</button>
+            <button id="plainbubbleDefault">戻</button>
+            <button id="plainbubbleLarge">&raquo;</button>
+          </div>
+        </div>
+        <div>
+          <form>
+            <div class="form-group patternOnetextMenu">
+              <label for="" class="bmd-label-floating patternOnetextArea">テキスト</label>
+              <textarea class="form-control" id="plain-textarea" rows="3" >ここに入力</textarea>
+            </div>
+          </form>
+        </div>
+        <div>
+          <p>テキストサイズ</p>
+          <button id="plainfontSmall" type="button">小さく</button>
+          <button id="plainfontLarge" type="button">大きく</button>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="hitokomaFoundation" id="patternOne">
+      <div class="patternOneFoundationWaku">
+        <div class="hitokomaFoundationChara-drag" id="" style=" top:50px; left:20px;">
+          <img src="../img/men.png" class="patternOneImg"id="patternOneCharcterImage" alt="">
+        </div>
+        <div class="hitokomaFoundationChara-drag parent" id="" style=" top:0px; left:360px;">
+          <div class="patternOnefk-size">
+            <img src="../img/fk.png" id="patternOne-bubbleImg" alt="">
+          </div>
+        </div>
+        <div class="hitokomaFoundationChara-drag" id="" style=" top:90px; left:490px;">
+          <div class="child">
+            <p id="patternOnefontResizable"><span class="patternOneText-primary"></span></p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="patternOnemenuField">
+        <div>
+          <div class="menu1">
+            <p>人物のサイズ</p>
+            <button id="patternOnecharasmalle">&laquo;</button>
+            <button id="patternOnecharaDefault">戻</button>
+            <button id="patternOnecharaLarge">&raquo;</button>
+          </div>
+        </div>
+        <div>
+          <div class="menu2">
+            <p>吹き出しサイズ</p>
+            <button id="patternOnebubblesmalle">&laquo;</button>
+            <button id="patternOnebubbleDefault">戻</button>
+            <button id="patternOnebubbleLarge">&raquo;</button>
+          </div>
+        </div>
+        <div>
+          <form>
+            <div class="form-group patternOnetextMenu">
+              <label for="" class="bmd-label-floating patternOnetextArea">テキスト</label>
+              <textarea class="form-control" id="patternOne-textarea" rows="3" >ここに入力</textarea>
+            </div>
+          </form>
+        </div>
+        <div>
+          <p>テキストサイズ</p>
+          <button id="patternOnefontSmall" type="button">小さく</button>
+          <button id="patternOnefontLarge" type="button">大きく</button>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="hitokomaFoundation" id="patternTwo">
+      <div class="patternTwoFoundationWaku">
+        <div class="hitokomaFoundationChara-drag" id="" style=" top:50px; left:20px;">
+          <img src="../img/men.png" id="patternTwoCharcterImage" alt="">
+        </div>
+        <div class="hitokomaFoundationChara-drag parent" id="" style=" top:0px; left:360px;">
+          <div class="patternTwofk-size">
+            <img src="../img/fk.png" id="patternTwo-bubbleImg" alt="">
+          </div>
+        </div>
+        <div class="hitokomaFoundationChara-drag" id="" style=" top:90px; left:490px;">
+          <div class="child">
+            <p id="patternTwofontResizable"><span class="patternTwoText-primary"></span></p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="patternOnemenuField">
+        <div>
+          <div class="menu1">
+            <p>人物のサイズ</p>
+            <button id="patternTwoCharasmalle">&laquo;</button>
+            <button id="patternTwoCharaDefault">戻</button>
+            <button id="patternTwoCharaLarge">&raquo;</button>
+          </div>
+        </div>
+        <div>
+          <div class="menu2">
+            <p>吹き出しサイズ</p>
+            <button id="patternTwobubblesmalle">&laquo;</button>
+            <button id="patternTwobubbleDefault">戻</button>
+            <button id="patternTwobubbleLarge">&raquo;</button>
+          </div>
+        </div>
+        <div>
+          <form>
+            <div class="form-group patternOnetextMenu">
+              <label for="" class="bmd-label-floating patternOnetextArea">テキスト</label>
+              <textarea class="form-control" id="patternTwo-textarea" rows="3" >ここに入力</textarea>
+            </div>
+          </form>
+        </div>
+        <div>
+          <p>テキストサイズ</p>
+          <button id="patternTwofontSmall" type="button">小さく</button>
+          <button id="patternTwofontLarge" type="button">大きく</button>
+        </div>
+      </div>
+    </div>
+  </main>
+  
+  <script src="../js/hitokomaManga.js"></script>
+</body>
+</html>
